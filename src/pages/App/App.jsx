@@ -1,7 +1,9 @@
 import './App.css';
+import {useState} from 'react';
 
 export default function App() {
-  return (
+  const [user, setUser] = useState(null)
+  return ( 
     <main className="App">
       App
     </main>
