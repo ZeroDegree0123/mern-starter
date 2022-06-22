@@ -1,5 +1,8 @@
 import './NewOrderPage.css';
+import React from 'react';
 
 export default function NewOrderPage() {
-    return <h1>hello new order</h1>
+  return (
+    <h1>NewOrderPage</h1>
+  );
 }
